@@ -89,6 +89,8 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
             LOGGER.info("Listado de todos los odontologos: " + odontologos);
 
+            LOGGER.info("Listado de solo nombres...: ");
+
             for(Odontologo o : odontologos){
                 LOGGER.info(o.getId() + ". " + o.getNombre());
             }

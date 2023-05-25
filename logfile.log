@@ -1,0 +1,7 @@
+[2023-05-25 20:11:30] [ INFO ] [OdontologoDaoH2:90] Listado de todos los odontologos: [Id: 1 - Nombre: Gustavo - Apellido: Maciá - Matricula: 1111, Id: 2 - Nombre: Matías - Apellido: Crino - Matricula: 2222]
+[2023-05-25 20:11:30] [ INFO ] [OdontologoDaoH2:93] 1. Gustavo
+[2023-05-25 20:11:31] [ INFO ] [OdontologoDaoH2:93] 2. Matías
+[2023-05-25 20:13:15] [ INFO ] [OdontologoDaoH2:90] Listado de todos los odontologos: [Id: 1 - Nombre: Gustavo - Apellido: Maciá - Matricula: 1111, Id: 2 - Nombre: Matías - Apellido: Crino - Matricula: 2222]
+[2023-05-25 20:13:15] [ INFO ] [OdontologoDaoH2:92] Listado de solo nombres...: 
+[2023-05-25 20:13:15] [ INFO ] [OdontologoDaoH2:95] 1. Gustavo
+[2023-05-25 20:13:15] [ INFO ] [OdontologoDaoH2:95] 2. Matías

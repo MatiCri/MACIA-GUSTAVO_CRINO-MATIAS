@@ -1,12 +1,28 @@
 package com.backend;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("hola mundo");
-        System.out.println("hola mundo!");
+
+        Connection connection = null;
+
+        try {
+            Class.forName("org.h2.Driver");
+            connection = DriverManager.getConnection("jdbc:h2:~/examenDB;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
+
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception ex){
+                ex.printStackTrace();
+            }
+        }
 
     }
-
 
 }
